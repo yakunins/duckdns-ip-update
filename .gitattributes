@@ -1,0 +1,13 @@
+# Line endings are normalized to LF in the repository and checked out as CRLF
+# on Windows. Without this file that behavior depends on each machine's
+# core.autocrlf setting, which is how lib/ ended up with a mix of LF and CRLF
+# working copies.
+* text=auto
+
+# Batch files are run by cmd.exe, which wants CRLF regardless of platform.
+*.cmd text eol=crlf
+
+# Never line-ending-convert these.
+*.exe binary
+*.png binary
+*.ico binary

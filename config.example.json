@@ -1,0 +1,12 @@
+{
+    "domains": "foo,bar",
+    "token": "my-duck-dns-token",
+    "ip": "",
+    "intervalMinutes": 5,
+    "notifyOnError": true,
+    "logging": {
+        "enabled": true,
+        "fileLocation": ".\\duckdns.log",
+        "maxLines": 1000
+    }
+}

@@ -1,0 +1,4 @@
+duckdns-ip-update.exe
+config.example.json
+install.cmd
+uninstall.cmd

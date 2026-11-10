@@ -1,0 +1,8 @@
+/temp
+/.vscode
+# holds the DuckDNS token - config.example.json is the committed template
+/config.json
+/*.exe
+/*.zip
+**/*.log
+**/*.log.*
